@@ -1,0 +1,37 @@
+.user-block {
+  display: flex;
+  flex-direction: column;
+  -webkit-box-align: center;
+  align-items: center;
+  margin: 2em 1em;
+}
+
+.user-img-wrap {
+  width: 300px;
+  height: 300px;
+  background-color: darkslategrey;
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid rgb(238, 238, 238);
+  border-image: initial;
+}
+
+.user-img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.user {
+  display: flex;
+  flex-direction: row;
+}
+
+.user-info {
+  padding-left: 20px;
+  text-align: left;
+}
+
+.notifications {
+  text-align: center;
+}
